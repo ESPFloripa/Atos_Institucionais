@@ -339,13 +339,12 @@
 
                         <div className="text-slate-700 overflow-y-auto max-h-[60vh] pr-2">
                             <ol className="list-decimal list-inside space-y-3 text-base leading-relaxed">
-                                <li>Este Curso Livre é voltado para profissionais da SMS de Florianópolis e será certificado com a carga horária de 2 horas/aula.</li>
-                                <li>Você deve clicar no botão disponível ao lado (ou <a href="https://espfloripa.github.io/cursoslivres/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline font-semibold">aqui</a>) e preencher todos os campos para se inscrever no curso no mês corrente.</li>
-                                <li>Após a inscrição realizada, você tem até o último dia do mês para responder o teste de aproveitamento disponibilizado no botão no fim da página.</li>
-                                <li>Ao responder o teste de aproveitamento coloque o nome completo e CPF conforme você colocou no link de inscrição.</li>
+                                <li>Este Curso Livre é voltado para profissionais de saúde e será certificado com a carga horária de 2 horas/aula.</li>
+                                <li>Você deve acessar os conteúdos seguindo o fluxo estabelecido e ao fim fazer o teste de aproveitamento.</li>
+                                <li>Ao responder o teste de aproveitamento coloque o nome completo e CPF (só números), certifique-se de colocar corretamente os dados, pois o seu certificado será gerado a partir dessas informações.</li>
                                 <li>A nota de corte para aprovação é de 80%.</li>
-                                <li>O teste de aproveitamento só permite uma resposta por participante, caso você não seja aprovado poderá repetir o curso no mês seguinte.</li>
-                                <li>O certificado será disponibilizado até o último dia útil do mês seguinte à finalização do curso.</li>
+                                <li>O teste de aproveitamento só permite uma resposta por participante no mês vigente, caso você não seja aprovado poderá refazer o teste no próximo mês.</li>
+                                <li>O certificado será enviado por e-mail usualmente em até 1 hora após o fim do teste.</li>
                             </ol>
                         </div>
 
@@ -642,7 +641,7 @@
                                         <div className="bg-teal-700 text-white p-8 rounded-xl shadow-lg text-center">
                                             <Icons.PenTool size={48} className="mx-auto mb-4 opacity-80" />
                                             <h3 className="text-2xl font-bold mb-2">Teste de Aproveitamento</h3>
-                                            <p className="opacity-90 mb-8">Após ter se inscrito e terminar o curso clique no botão abaixo para fazer o teste de aproveitamento!</p>
+                                            <p className="opacity-90 mb-8">Para obter seu certificado faça o Teste de Aproveitamento!</p>
                                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeLeoIJi7NoS8Ys_e84MQNopiJ9yyDrl0la2qi_IoXrEYmFg/viewform?usp=header" target="_blank" className="inline-flex items-center justify-center gap-2 bg-white text-teal-800 font-bold py-3 px-6 rounded-full hover:bg-teal-50 hover:scale-105 transition-all w-full shadow-md">Teste de aproveitamento <Icons.ExternalLink size={18} /></a>
                                         </div>
                                     </div>
@@ -694,10 +693,6 @@
                                     <Icons.GraduationCap size={20} />
                                     Curso Livre - Instruções
                                 </button>
-                                <a href="https://espfloripa.github.io/cursoslivres/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white bg-teal-600 hover:bg-teal-700 py-2 px-6 rounded-full transition-colors shadow-md font-medium text-sm md:text-base">
-                                    <Icons.PenTool size={20} />
-                                    Curso Livre - Inscrição
-                                </a>
                             </div>
                         </div>
                         {renderContent()}
